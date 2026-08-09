@@ -157,6 +157,7 @@ The purpose of this stage was to compare candidate protein sequences and obtain 
 The BLAST results were processed into structured datasets for downstream analysis.
 
 # Machine Learning Pipeline
+
 ## 6. Candidate Feature Extraction
 
 The information obtained from the comparative proteome and BLAST analysis was organized into structured datasets.
@@ -293,6 +294,24 @@ Candidate Ranking
 ```
 This architecture enables quantum machine learning to be applied to a feature space generated from a real biological problem.
 
+## Quantum Kernel Analysis
+
+A quantum kernel-based machine learning approach was applied to evaluate the similarity between protein-derived feature representations and support host-specific classification.
+
+The quantum kernel computes pairwise similarity between candidate protein feature vectors, generating a kernel matrix that can be used for downstream classification and pattern analysis.
+
+### Quantum Kernel Similarity Matrix
+
+The similarity matrix visualizes pairwise relationships between candidate proteins across citrus, grape, pomegranate, and Xoo-associated groups.
+
+<img src="images/quantum_kernel_similarity_matrix.png" width="850">
+
+### Clustered Quantum Kernel Heatmap
+
+Hierarchical clustering of the quantum kernel matrix highlights groups of candidates with similar feature representations and provides a visual view of the structure learned by the quantum kernel.
+
+<img src="images/clustered_quantum_kernel_heatmap.png" width="850">
+
 # Candidate Classification and Ranking
 
 The processed candidate features were used to classify candidates according to their association with the different Xanthomonas groups.
@@ -371,6 +390,8 @@ Prediction
         ↓
 Candidate Ranking
 ```
+
+
 This demonstrates the application of:
 
 - Data preprocessing
