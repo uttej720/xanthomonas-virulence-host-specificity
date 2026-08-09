@@ -83,7 +83,7 @@ Xanthomonas Protein FASTA Datasets
                          │
                          ▼
           Host-Specific Signatures
-
+```
 
 Yes. This is the better approach. Delete everything currently in your local README.md and paste the following exactly as it is.
 
