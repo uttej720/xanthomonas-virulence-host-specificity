@@ -351,3 +351,4 @@ Develop an interactive visualization/dashboard for candidate exploration.
 Project Skills
 
 Python | Machine Learning | Quantum Machine Learning | Quantum Kernels | Feature Engineering | Data Analysis | Pandas | NumPy | Linux | Bash | BLAST | Computational Biology
+
