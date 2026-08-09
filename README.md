@@ -1,704 +1,499 @@
-\# xanthomonas-virulence-host-specificity
+# Quantum-Enhanced Identification of Virulence Signatures Governing Host Specificity in Xanthomonas
 
-Quantum-enhanced identification of virulence signatures governing host specificity in Xanthomonas using bioinformatics and quantum kernel-based prediction.
+A quantum-enhanced machine learning pipeline integrating comparative proteomics, BLAST-based sequence analysis, feature engineering, and quantum kernel-based classification to identify protein signatures associated with host specificity in *Xanthomonas*.
 
+---
 
-\## Overview
+## Project Overview
 
+This project investigates protein signatures associated with host specificity in *Xanthomonas* using a combination of classical bioinformatics, comparative proteomics, machine learning, and quantum machine learning.
 
+The workflow begins with protein FASTA datasets from different *Xanthomonas* groups associated with citrus, grape, pomegranate, and Xoo.
 
-This project investigates protein signatures associated with host specificity in \*Xanthomonas\* using a combination of classical comparative genomics, protein sequence analysis, BLAST-based analysis, and quantum-kernel-based machine learning.
+The classical bioinformatics pipeline is used to identify conserved, shared, and unique proteins through comparative proteome and orthology analysis. Selected candidates are further investigated using BLAST-based sequence analysis and structured feature extraction.
 
+The resulting biological features are transformed into numerical datasets and used as input for a quantum machine learning workflow implemented in Python using Google Colab.
 
+The main computational objective is to investigate whether quantum kernel-based learning can be applied to biological feature spaces for host/species-specific classification and candidate identification.
 
-The workflow starts with protein FASTA datasets from different \*Xanthomonas\* groups associated with citrus, grape, pomegranate, and Xoo. Orthology analysis is used to identify shared and unique protein groups, followed by downstream sequence comparison and candidate identification.
+---
 
+## Objectives
 
+The major objectives of this project are:
 
-The resulting species/host-specific protein features are then prepared for machine-learning analysis. A quantum kernel-based classification workflow implemented in Google Colab is used as the quantum-enhanced component of the project.
+- Identify protein signatures associated with host/species specificity in *Xanthomonas*.
+- Organize and process comparative protein datasets.
+- Perform orthology-based comparative proteome analysis.
+- Identify unique and group-specific proteins.
+- Perform BLAST-based sequence analysis of candidate proteins.
+- Extract and engineer computational features from candidate proteins.
+- Prepare numerical datasets for machine learning.
+- Apply quantum kernel-based machine learning for classification.
+- Rank candidate proteins based on classification results.
+- Identify candidate protein signatures for further biological investigation.
 
+---
 
-
-The overall objective is to identify candidate protein signatures that contribute to distinguishing host/species-specific groups and may represent potential virulence-associated signatures.
-
-
-
-
-
-\## Project Overview
-
-
-
-This project develops a \*\*quantum-enhanced machine learning pipeline\*\* for identifying protein signatures associated with host specificity in \*Xanthomonas\*.
-
-
-
-The project combines:
-
-
-
-\- \*\*Python-based data processing\*\*
-
-\- \*\*Comparative proteomics\*\*
-
-\- \*\*BLAST-based sequence analysis\*\*
-
-\- \*\*Feature engineering\*\*
-
-\- \*\*Classical classification\*\*
-
-\- \*\*Quantum kernel-based machine learning\*\*
-
-\- \*\*Candidate ranking and prediction\*\*
-
-
-
-The main computational objective is to transform biological protein-level information into a structured feature space and investigate whether \*\*quantum kernel methods can be applied for host/species-specific classification\*\*.
-
-
-
-\# End-to-End Workflow
-
-
+# End-to-End Workflow
 
 ```text
-
-Protein FASTA Datasets
-
-&#x20;       │
-
-&#x20;       ▼
-
-Data Preprocessing
-
-&#x20;       │
-
-&#x20;       ▼
-
-Comparative Proteome Analysis
-
-&#x20;       │
-
-&#x20;       ▼
-
-Orthology Analysis
-
-&#x20;       │
-
-&#x20;       ▼
-
-Unique Protein Identification
-
-&#x20;       │
-
-&#x20;       ▼
-
-BLAST-Based Analysis
-
-&#x20;       │
-
-&#x20;       ▼
-
-Candidate Feature Extraction
-
-&#x20;       │
-
-&#x20;       ▼
-
-Feature Engineering
-
-&#x20;       │
-
-&#x20;       ▼
-
-Numerical Feature Matrix
-
-&#x20;       │
-
-&#x20;       ├───────────────┐
-
-&#x20;       │               │
-
-&#x20;       ▼               ▼
-
-&#x20;Classical          Quantum ML
-
-&#x20;Classification      Pipeline
-
-&#x20;       │               │
-
-&#x20;       │          Quantum Kernel
-
-&#x20;       │               │
-
-&#x20;       │               ▼
-
-&#x20;       │          Classification
-
-&#x20;       │               │
-
-&#x20;       └───────┬───────┘
-
-&#x20;               ▼
-
-&#x20;      Candidate Ranking
-
-&#x20;               │
-
-&#x20;               ▼
-
-&#x20;   Host-Specific Signatures
-
-```
-
-Computational Pipeline
+Xanthomonas Protein FASTA Datasets
+                │
+                ▼
+       Data Organization
+                │
+                ▼
+    Comparative Proteome Analysis
+                │
+                ▼
+         Orthology Analysis
+                │
+                ▼
+     Unique Protein Identification
+                │
+                ▼
+ Species/Host-Specific Candidates
+                │
+                ▼
+        BLAST-Based Analysis
+                │
+                ▼
+      Candidate Feature Extraction
+                │
+                ▼
+         Feature Engineering
+                │
+                ▼
+      Numerical Feature Matrix
+                │
+                ├──────────────────┐
+                │                  │
+                ▼                  ▼
+      Classical Analysis     Quantum ML Pipeline
+                │                  │
+                │            Quantum Kernel
+                │                  │
+                │                  ▼
+                │             Classification
+                │                  │
+                └────────┬─────────┘
+                         ▼
+                 Candidate Ranking
+                         │
+                         ▼
+          Host-Specific Signatures
 
 
+Yes. This is the better approach. Delete everything currently in your local README.md and paste the following exactly as it is.
 
-\## 1. Data Preparation
+Do not add any backslashes before #, *, or other Markdown symbols.
 
+# Quantum-Enhanced Identification of Virulence Signatures Governing Host Specificity in Xanthomonas
 
+A quantum-enhanced machine learning pipeline integrating comparative proteomics, BLAST-based sequence analysis, feature engineering, and quantum kernel-based classification to identify protein signatures associated with host specificity in *Xanthomonas*.
 
-Protein FASTA datasets were organized into structured datasets representing different Xanthomonas groups.
+---
 
+## Project Overview
 
+This project investigates protein signatures associated with host specificity in *Xanthomonas* using a combination of classical bioinformatics, comparative proteomics, machine learning, and quantum machine learning.
 
+The workflow begins with protein FASTA datasets from different *Xanthomonas* groups associated with citrus, grape, pomegranate, and Xoo.
+
+The classical bioinformatics pipeline is used to identify conserved, shared, and unique proteins through comparative proteome and orthology analysis. Selected candidates are further investigated using BLAST-based sequence analysis and structured feature extraction.
+
+The resulting biological features are transformed into numerical datasets and used as input for a quantum machine learning workflow implemented in Python using Google Colab.
+
+The main computational objective is to investigate whether quantum kernel-based learning can be applied to biological feature spaces for host/species-specific classification and candidate identification.
+
+---
+
+Dataset
+
+Protein FASTA (.faa) datasets were organized for four major Xanthomonas groups:
+
+Citrus
+Grape
+Pomegranate
+Xoo
+
+The input data are organized as:
 ```text
-
 data/
-
 └── raw/
-
-&#x20;   ├── citrus/
-
-&#x20;   ├── grape/
-
-&#x20;   ├── pomegranate/
-
-&#x20;   └── xoo/
-
+    ├── citrus/
+    │   └── protein.faa
+    ├── grape/
+    │   └── protein.faa
+    ├── pomegranate/
+    │   └── protein.faa
+    └── xoo/
+        └── protein.faa
 ```
+These protein sequences form the starting point for the comparative proteomics and downstream machine learning workflow.
 
-The protein sequences were used as the starting point for the downstream computational analysis.
+# Classical Bioinformatics Pipeline
+## 1. Protein Dataset Preparation
+
+Protein FASTA files were collected and organized according to their corresponding Xanthomonas groups.
+
+The datasets were maintained in a structured directory to allow independent processing and comparative analysis.
+
+## 2. Comparative Proteome Analysis
+
+The protein datasets were compared to investigate similarities and differences between the different Xanthomonas groups.
+
+This stage provides the basis for identifying proteins that are conserved, shared, or specific to particular groups.
+
+## 3. Orthology Analysis
+
+Orthology analysis was performed to identify relationships between proteins across the different datasets.
+
+The analysis was used to identify:
+
+- Conserved proteins
+- Shared protein groups
+- Group-specific proteins
+- Unique protein candidates
+
+The identified unique proteins were subsequently used for host/species-specific candidate analysis.
+
+## 4. Unique Protein Identification
+
+Following orthology analysis, candidate proteins that were unique to individual groups were extracted.
+
+The analysis was performed for:
+
+Citrus
+Grape
+Pomegranate
+Xoo
+
+These candidates formed the basis for downstream sequence analysis and classification.
+
+## 5. BLAST-Based Sequence Analysis
+
+BLAST-based sequence analysis was performed on selected candidate proteins.
+
+The purpose of this stage was to compare candidate protein sequences and obtain sequence-level information useful for candidate evaluation and classification.
+
+The BLAST results were processed into structured datasets for downstream analysis.
+
+# Machine Learning Pipeline
+## 6. Candidate Feature Extraction
+
+The information obtained from the comparative proteome and BLAST analysis was organized into structured datasets.
+
+Candidate proteins were processed to generate features suitable for computational classification.
+
+The workflow included:
+
+- Candidate selection
+- Feature extraction
+- Data transformation
+- Numerical encoding
+- Classification dataset preparation
 
 
+## 7. Feature Engineering
 
-\## 2. Comparative Proteomics and Orthology Analysis
-
-
-
-The protein datasets were compared to identify relationships between proteins across the different groups.
-
-
-
-Orthology analysis was used to identify:
-
-
-
-Conserved proteins
-
-Shared proteins
-
-Group-specific proteins
-
-Unique protein candidates
-
-
-
-This stage reduced the original protein datasets into a set of candidate proteins that could be used for classification.
-
-
-
-\## 3. BLAST-Based Feature Generation
-
-
-
-BLAST-based sequence analysis was performed on selected protein candidates.
-
-
-
-The resulting sequence-level information was processed into structured datasets for downstream computational analysis.
-
-
-
-This stage connected the biological sequence information with the machine-learning feature generation pipeline.
-
-
-
-Machine Learning Pipeline
-
-
-
-\## 4. Feature Engineering
-
-
-
-The identified candidate proteins were transformed into structured numerical features.
-
-
+The candidate information was transformed into numerical representations for machine learning.
 
 The feature engineering stage included:
 
+Selection of relevant features
+Numerical representation of biological information
+Data transformation
+Preparation of classification datasets
+Generation of numerical feature matrices
 
-
-\- Candidate selection
-
-\- Feature extraction
-
-\- Data transformation
-
-\- Numerical encoding
-
-\- Classification dataset preparation
-
-
-
-The resulting datasets were prepared specifically for machine-learning analysis.
-
-
+Example generated datasets include:
+```text
+quantum_input_numeric.tsv
+quantum_input_numeric_loge.tsv
+```
 
 Quantum Machine Learning
+## 8. Quantum Kernel-Based Classification
 
+A major component of this project is the application of quantum machine learning using a quantum kernel-based approach.
 
+After completing the classical bioinformatics and feature-engineering stages, the processed numerical feature datasets were used as input for the quantum machine learning workflow.
 
-\## 5. Quantum Kernel-Based Classification
+The quantum analysis was implemented in Python using Google Colab.
 
-
-
-A major component of this project is the application of quantum machine learning using a quantum kernel approach.
-
-
-
-After completing the classical bioinformatics and feature-engineering stages, the processed numerical feature matrix was transferred to a Google Colab-based Python environment for quantum machine-learning analysis.
-
-
-
-The workflow can be summarized as:
-
+The computational workflow is:
 ```text
-
 Biological Protein Data
-
-&#x20;       ↓
-
-Feature Engineering
-
-&#x20;       ↓
-
-Numerical Feature Matrix
-
-&#x20;       ↓
-
-Quantum Feature Representation
-
-&#x20;       ↓
-
-Quantum Kernel
-
-&#x20;       ↓
-
-Kernel Matrix
-
-&#x20;       ↓
-
-Classification
-
-&#x20;       ↓
-
-Prediction
-
+          │
+          ▼
+   Feature Engineering
+          │
+          ▼
+ Numerical Feature Matrix
+          │
+          ▼
+ Quantum Feature Representation
+          │
+          ▼
+     Quantum Kernel
+          │
+          ▼
+     Kernel Matrix
+          │
+          ▼
+     Classification
+          │
+          ▼
+      Prediction
+          │
+          ▼
+   Candidate Ranking
 ```
+The quantum kernel approach was used to investigate relationships between biological feature vectors in a quantum-enhanced feature space.
 
+## 9. Quantum Machine Learning Pipeline
 
+The quantum machine learning stage followed the classical biological data-processing workflow.
 
-The quantum kernel approach was investigated as a method for learning relationships between feature vectors in a quantum-enhanced feature space.
-
-
-
-This allowed the project to combine bioinformatics data processing with quantum machine-learning techniques.
-
-
-
-\## 6. Quantum Kernel Prediction Pipeline
-
-
-
-The quantum machine-learning workflow was implemented using Python in Google Colab.
-
-
-
-The major computational stages were:
-
+The major computational steps were:
 ```text
-
 Input Dataset
-
-&#x20;    ↓
-
+     ↓
 Data Loading
-
-&#x20;    ↓
-
+     ↓
 Feature Selection
-
-&#x20;    ↓
-
+     ↓
 Data Preprocessing
-
-&#x20;    ↓
-
-Feature Scaling / Transformation
-
-&#x20;    ↓
-
+     ↓
+Feature Transformation
+     ↓
 Quantum Feature Mapping
-
-&#x20;    ↓
-
+     ↓
 Quantum Kernel Computation
-
-&#x20;    ↓
-
+     ↓
 Kernel-Based Classification
-
-&#x20;    ↓
-
+     ↓
 Prediction
-
-&#x20;    ↓
-
-Model Evaluation
-
+     ↓
+Candidate Evaluation
 ```
+This approach allows the project to combine computational biology with modern quantum machine learning techniques.
 
-The quantum analysis generated additional prediction and candidate-analysis outputs.
+## 10. Classical and Quantum Integration
 
+The project separates the biological feature-generation stage from the quantum machine-learning stage.
 
-
-\## 7. Classical vs Quantum Analysis
-
-
-
-The project separates the biological data-processing pipeline from the quantum machine-learning stage.
-
+## Classical Computational Pipeline
 ```text
-
-
-
-CLASSICAL COMPUTATIONAL PIPELINE
-
-\--------------------------------
-
 Protein Sequences
-
-&#x20;     ↓
-
-Orthology
-
-&#x20;     ↓
-
-BLAST
-
-&#x20;     ↓
-
+       ↓
+Orthology Analysis
+       ↓
+Unique Protein Identification
+       ↓
+BLAST Analysis
+       ↓
 Candidate Extraction
-
-&#x20;     ↓
-
+       ↓
 Feature Engineering
-
-&#x20;     ↓
-
+       ↓
 Numerical Dataset
-
-
-
-
-
-QUANTUM ML PIPELINE
-
-\-------------------
-
-
-
+```
+## Quantum Machine Learning Pipeline
+```text
 Numerical Dataset
-
-&#x20;     ↓
-
-Quantum Feature Mapping
-
-&#x20;     ↓
-
+       ↓
+Quantum Feature Representation
+       ↓
 Quantum Kernel
-
-&#x20;     ↓
-
+       ↓
 Classification
-
-&#x20;     ↓
-
+       ↓
 Prediction
-
-&#x20;     ↓
-
+       ↓
 Candidate Ranking
-
-
-
 ```
+This architecture enables quantum machine learning to be applied to a feature space generated from a real biological problem.
 
-This architecture allows the quantum component to operate on features generated from a real biological problem rather than on an artificial dataset.
+# Candidate Classification and Ranking
 
+The processed candidate features were used to classify candidates according to their association with the different Xanthomonas groups.
 
+The analysis generated combined and ranked candidate datasets.
 
-Candidate Classification and Ranking
+Important outputs include:
 
+- merged_classified_candidates.tsv
+- merged_classified_ranked.tsv
+- top10_candidates_annotation_review.tsv
+- top10_candidates_per_species_from_classification.tsv
+- classified_species_summary.tsv
 
+These outputs provide structured candidate lists for further analysis and interpretation.
 
-The processed features were used to classify candidates according to their association with the different Xanthomonas groups.
+# Results
 
+The project generates both classical bioinformatics results and quantum machine learning outputs.
 
+The main result categories include:
 
-The analysis produced ranked candidate datasets including:
-
+## Classical Analysis
 ```text
+citrus_final.tsv
+citrus_final_classified.tsv
 
-merged\_classified\_candidates.tsv
+grape_final.tsv
+grape_final_classified.tsv
 
-merged\_classified\_ranked.tsv
+pomegranate_final.tsv
+pomegranate_final_classified.tsv
 
-top10\_candidates\_annotation\_review.tsv
-
-top10\_candidates\_per\_species\_from\_classification.tsv
-
+xoo_final.tsv
+xoo_final_classified.tsv
 ```
-
-These outputs were used to identify the most relevant candidate proteins from the classification analysis.
-
-
-
-Results
-
-
-
-The major results are divided into classical bioinformatics outputs and quantum machine-learning outputs.
-
+## Combined Candidate Results
 ```text
-
-
-
-results/
-
-│
-
-├── classical/
-
-│   ├── citrus\_final.tsv
-
-│   ├── citrus\_final\_classified.tsv
-
-│   ├── grape\_final.tsv
-
-│   ├── grape\_final\_classified.tsv
-
-│   ├── pomegranate\_final.tsv
-
-│   ├── pomegranate\_final\_classified.tsv
-
-│   ├── xoo\_final.tsv
-
-│   ├── xoo\_final\_classified.tsv
-
-│   ├── merged\_classified\_candidates.tsv
-
-│   └── merged\_classified\_ranked.tsv
-
-│
-
-└── quantum/
-
-&#x20;   ├── quantum\_input\_numeric.tsv
-
-&#x20;   ├── quantum\_input\_numeric\_loge.tsv
-
-&#x20;   ├── top10\_candidates\_annotation\_review.tsv
-
-&#x20;   ├── top10\_candidates\_per\_species\_from\_classification.tsv
-
-&#x20;   └── quantum\_colab\_outputs/
-
+merged_classified_candidates.tsv
+merged_classified_ranked.tsv
+classified_species_summary.tsv
 ```
-
-Technologies \& Skills Demonstrated
-
-Programming
-
-Python
-
-R
-
-Bash / Linux
-
-Data Science
-
-Pandas
-
-NumPy
-
-Data preprocessing
-
-Feature engineering
-
-Numerical data transformation
-
-Classification
-
-Candidate ranking
-
-Machine Learning
-
-Supervised classification
-
-Feature preparation
-
-Model evaluation
-
-Kernel-based learning
-
-Quantum Computing
-
-Quantum Machine Learning
-
-Quantum Kernel Methods
-
-Quantum feature mapping
-
-Kernel-based classification
-
-Google Colab-based quantum ML experimentation
-
-Bioinformatics
-
-Protein sequence analysis
-
-Comparative proteomics
-
-Orthology analysis
-
-BLAST
-
-FASTA/FAA processing
-
-
-
-Key Technical Contribution
-
-
-
-The key computational contribution of this project is the integration of a quantum-kernel-based machine-learning approach with a biological feature-generation pipeline.
-
-
-
-Instead of directly applying quantum machine learning to raw biological sequences, the project follows an end-to-end computational architecture:
-
+## Quantum Machine Learning Inputs
 ```text
+quantum_input_numeric.tsv
+quantum_input_numeric_loge.tsv
+```
+## Top Candidate Results
+```text
+top10_candidates_annotation_review.tsv
+top10_candidates_per_species_from_classification.tsv
+```
+Quantum analysis outputs are maintained separately under the project's quantum results directory.
 
+# Key Technical Contribution
+
+The main computational contribution of this project is the integration of comparative bioinformatics, machine learning, and quantum machine learning into a single workflow.
+
+The project transforms raw biological protein data into a structured machine-learning problem:
+```text
 Raw Biological Data
-
-&#x20;       ↓
-
-Computational Biology
-
-&#x20;       ↓
-
+        ↓
+Comparative Bioinformatics
+        ↓
+Candidate Protein Identification
+        ↓
 Feature Engineering
-
-&#x20;       ↓
-
-Machine-Learning Dataset
-
-&#x20;       ↓
-
+        ↓
+Numerical Feature Dataset
+        ↓
 Quantum Machine Learning
-
-&#x20;       ↓
-
-Classification
-
-&#x20;       ↓
-
-Prediction \& Candidate Ranking
-
+        ↓
+Quantum Kernel Classification
+        ↓
+Prediction
+        ↓
+Candidate Ranking
 ```
+This demonstrates the application of:
 
-This demonstrates the ability to combine domain-specific data processing with modern machine-learning and quantum-computing techniques.
+- Data preprocessing
+- Feature engineering
+- Classification
+- Kernel-based learning
+- Quantum machine learning
+- Biological data analysis
+- Python-based computational workflows
 
+# Technologies & Skills
 
+- Programming
+- Python
+- R
+- Bash
+- Linux
+- Data Science
+- Pandas
+- NumPy
+- Data preprocessing
+- Feature engineering
+- Numerical data transformation
+- Classification
+- Candidate ranking
+- Machine Learning
+- Supervised classification
+- Feature preparation
+- Kernel-based learning
+- Model evaluation
+- Quantum Computing
+- Quantum Machine Learning
+- Quantum Kernel Methods
+- Quantum Feature Mapping
+- Kernel-Based Classification
+- Python-based quantum ML workflows
+- Google Colab
+- Bioinformatics
+- Comparative Proteomics
+- Protein Sequence Analysis
+- Orthology Analysis
+- BLAST
+- FASTA/FAA Processing
 
-Reproducibility
-
-
-
-The repository separates the different stages of the computational workflow.
-
-
-
-Classical Analysis
-
-
-
-The Linux-based scripts are available under:
-
+# Repository Structure
 ```text
-
-scripts/
-
-├── bash/
-
-├── python/
-
-└── R/
-
+xanthomonas-virulence-host-specificity/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── metadata/
+│   └── raw/
+│       ├── citrus/
+│       ├── grape/
+│       ├── pomegranate/
+│       └── xoo/
+│
+├── scripts/
+│   ├── bash/
+│   ├── python/
+│   ├── R/
+│   └── extract_species_specific.sh
+│
+├── quantum_ml/
+│   ├── quantum_kernel_prediction.ipynb
+│   ├── quantum_kernel_prediction.py
+│   └── README.md
+│
+├── results/
+│   ├── classical/
+│   └── quantum/
+│
+├── config/
+│   ├── params.yml
+│   ├── paths.yml
+│   ├── samples.csv
+│   └── samples.tsv
+│
+└── add_xo_to_project.sh
 ```
 
+# Future Improvements
+- Compare quantum-kernel classification with conventional machine learning models.
+- Evaluate Support Vector Machines, Random Forest, and Logistic Regression approaches.
+- Perform systematic hyperparameter optimization.
+- Increase the number of Xanthomonas strains and host groups.
+- Evaluate additional quantum feature maps and kernel methods.
+- Perform cross-validation and expanded model evaluation.
+- Integrate additional biological annotation features.
+- Integrate additional virulence-factor databases.
+- Develop an automated end-to-end pipeline.
+- Perform functional annotation and enrichment analysis.
+- Develop interactive visualization for candidate exploration.
+- Experimentally validate the most promising candidate proteins.
 
 
-Quantum Machine Learning
+# Skills Demonstrated
 
-
-
-The quantum machine-learning implementation is available under:
-
-```text
-
-quantum\_ml
-
-```
-
-
-
-Future Improvements
-
-Compare quantum-kernel classification against conventional ML algorithms such as SVM, Random Forest and Logistic Regression.
-
-Perform systematic hyperparameter optimization.
-
-Increase the number of Xanthomonas strains and host groups.
-
-Evaluate additional quantum feature maps and kernel approaches.
-
-Perform cross-validation and more extensive model evaluation.
-
-Integrate additional biological annotation features.
-
-Develop an automated end-to-end pipeline from raw protein data to prediction.
-
-Develop an interactive visualization/dashboard for candidate exploration.
-
-
-
-Project Skills
-
-
-
-Python | Machine Learning | Quantum Machine Learning | Quantum Kernels | Feature Engineering | Data Analysis | Pandas | NumPy | Linux | Bash | BLAST | Computational Biology
+Python • Machine Learning • Quantum Machine Learning • Quantum Kernels • Feature Engineering • Data Analysis • Pandas • NumPy • Linux • Bash • R • BLAST • Comparative Proteomics • Computational Biology
