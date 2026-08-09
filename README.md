@@ -76,7 +76,8 @@ Numerical Feature Matrix
     Host-Specific Signatures
 ```
 Computational Pipeline
-1. Data Preparation
+
+## 1. Data Preparation
 
 Protein FASTA datasets were organized into structured datasets representing different Xanthomonas groups.
 
@@ -90,7 +91,7 @@ data/
 ```
 The protein sequences were used as the starting point for the downstream computational analysis.
 
-2. Comparative Proteomics and Orthology Analysis
+## 2. Comparative Proteomics and Orthology Analysis
 
 The protein datasets were compared to identify relationships between proteins across the different groups.
 
@@ -103,7 +104,7 @@ Unique protein candidates
 
 This stage reduced the original protein datasets into a set of candidate proteins that could be used for classification.
 
-3. BLAST-Based Feature Generation
+## 3. BLAST-Based Feature Generation
 
 BLAST-based sequence analysis was performed on selected protein candidates.
 
@@ -112,22 +113,24 @@ The resulting sequence-level information was processed into structured datasets 
 This stage connected the biological sequence information with the machine-learning feature generation pipeline.
 
 Machine Learning Pipeline
-4. Feature Engineering
+
+## 4. Feature Engineering
 
 The identified candidate proteins were transformed into structured numerical features.
 
 The feature engineering stage included:
 
-Candidate selection
-Feature extraction
-Data transformation
-Numerical encoding
-Classification dataset preparation
+- Candidate selection
+- Feature extraction
+- Data transformation
+- Numerical encoding
+- Classification dataset preparation
 
 The resulting datasets were prepared specifically for machine-learning analysis.
 
 Quantum Machine Learning
-5. Quantum Kernel-Based Classification
+
+## 5. Quantum Kernel-Based Classification
 
 A major component of this project is the application of quantum machine learning using a quantum kernel approach.
 
@@ -156,7 +159,7 @@ The quantum kernel approach was investigated as a method for learning relationsh
 
 This allowed the project to combine bioinformatics data processing with quantum machine-learning techniques.
 
-6. Quantum Kernel Prediction Pipeline
+## 6. Quantum Kernel Prediction Pipeline
 
 The quantum machine-learning workflow was implemented using Python in Google Colab.
 
@@ -184,7 +187,7 @@ Model Evaluation
 ```
 The quantum analysis generated additional prediction and candidate-analysis outputs.
 
-7. Classical vs Quantum Analysis
+## 7. Classical vs Quantum Analysis
 
 The project separates the biological data-processing pipeline from the quantum machine-learning stage.
 ```text
