@@ -85,31 +85,7 @@ Xanthomonas Protein FASTA Datasets
           Host-Specific Signatures
 ```
 
-Yes. This is the better approach. Delete everything currently in your local README.md and paste the following exactly as it is.
-
-Do not add any backslashes before #, *, or other Markdown symbols.
-
-# Quantum-Enhanced Identification of Virulence Signatures Governing Host Specificity in Xanthomonas
-
-A quantum-enhanced machine learning pipeline integrating comparative proteomics, BLAST-based sequence analysis, feature engineering, and quantum kernel-based classification to identify protein signatures associated with host specificity in *Xanthomonas*.
-
----
-
-## Project Overview
-
-This project investigates protein signatures associated with host specificity in *Xanthomonas* using a combination of classical bioinformatics, comparative proteomics, machine learning, and quantum machine learning.
-
-The workflow begins with protein FASTA datasets from different *Xanthomonas* groups associated with citrus, grape, pomegranate, and Xoo.
-
-The classical bioinformatics pipeline is used to identify conserved, shared, and unique proteins through comparative proteome and orthology analysis. Selected candidates are further investigated using BLAST-based sequence analysis and structured feature extraction.
-
-The resulting biological features are transformed into numerical datasets and used as input for a quantum machine learning workflow implemented in Python using Google Colab.
-
-The main computational objective is to investigate whether quantum kernel-based learning can be applied to biological feature spaces for host/species-specific classification and candidate identification.
-
----
-
-Dataset
+## Dataset
 
 Protein FASTA (.faa) datasets were organized for four major Xanthomonas groups:
 
