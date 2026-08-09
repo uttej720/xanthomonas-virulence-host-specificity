@@ -494,3 +494,63 @@ xanthomonas-virulence-host-specificity/
 # Skills Demonstrated
 
 Python • Machine Learning • Quantum Machine Learning • Quantum Kernels • Feature Engineering • Data Analysis • Pandas • NumPy • Linux • Bash • R • BLAST • Comparative Proteomics • Computational Biology
+
+
+## Quantum Machine Learning
+
+A major component of this project is the application of quantum machine learning to host-specific protein classification.
+
+After the classical bioinformatics analysis, candidate protein sequences were transformed into numerical feature representations suitable for machine-learning analysis. These representations were then used as input to a quantum kernel-based learning workflow.
+
+### Why Quantum Machine Learning?
+
+The objective of the quantum component was to investigate whether quantum-kernel-based similarity could capture patterns in protein-derived features that distinguish different host/species-associated groups.
+
+Rather than directly comparing protein sequences, the quantum machine-learning stage operates on numerical feature representations generated from the preceding bioinformatics workflow.
+
+This provides an additional pattern-recognition layer after orthology and BLAST-based candidate identification.
+
+### Quantum Kernel Workflow
+
+The quantum ML workflow can be summarized as:
+
+Protein-derived features  
+- Feature preprocessing  
+- Quantum feature encoding  
+- Quantum kernel computation  
+- Kernel similarity matrix  
+- Classification  
+- Host/species-specific candidate identification
+
+### 1. Feature Representation
+
+Candidate proteins identified during the classical analysis were represented using numerical features.
+
+These feature vectors form the input to the machine-learning pipeline:
+
+```text
+Protein candidate
+      ↓
+Numerical feature vector
+      ↓
+[x₁, x₂, x₃, ..., xₙ]
+```
+### 2. Quantum Feature Encoding
+
+The classical numerical features are encoded into a quantum feature space using a quantum feature-mapping procedure.
+
+The purpose of this transformation is to represent the original feature relationships in a quantum feature space.
+
+### 3. Quantum Kernel Computation
+
+The quantum kernel evaluates the similarity between pairs of quantum-encoded feature vectors.
+
+For two feature vectors xᵢ and xⱼ, the kernel measures their similarity in the quantum feature space.
+
+Computing this similarity across all candidates produces a kernel matrix:
+```text
+             Candidate 1  Candidate 2  Candidate 3
+Candidate 1      1.00        0.72         0.31
+Candidate 2      0.72        1.00         0.45
+Candidate 3      0.31        0.45         1.00
+```
