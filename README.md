@@ -3,7 +3,6 @@
 Quantum-enhanced identification of virulence signatures governing host specificity in Xanthomonas using bioinformatics and quantum kernel-based prediction.
 
 
-
 \## Overview
 
 
@@ -703,8 +702,3 @@ Project Skills
 
 
 Python | Machine Learning | Quantum Machine Learning | Quantum Kernels | Feature Engineering | Data Analysis | Pandas | NumPy | Linux | Bash | BLAST | Computational Biology
-
-
-
-
-
