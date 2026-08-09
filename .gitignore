@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+envs/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large archive files
+*.tar
+*.tar.gz
+*.zip
+
+# BLAST / database temporary files
+*.nhr
+*.nin
+*.nsq
+*.ndb
+*.not
+*.ntf
+*.nto
+
+# Local configuration
+*.local
+
+# Editor files
+.vscode/
+.idea/

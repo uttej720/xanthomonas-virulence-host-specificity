@@ -1,0 +1,4 @@
+sample_id	host	pathovar	faa_path
+pomegranate	Punica_granatum	Xanthomonas_citri_pv_punicae	data/raw/pomegranate/proteins.faa
+citrus	Citrus_spp	Xanthomonas_citri_ssp_citri	data/raw/citrus/proteins.faa
+grape	Vitis_vinifera	Xanthomonas_sp_grape	data/raw/grape/proteins.faa

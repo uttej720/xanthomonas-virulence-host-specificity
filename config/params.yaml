@@ -1,0 +1,4 @@
+threads: 16
+mmseqs_min_seq_id: 0.30
+mmseqs_coverage: 0.80
+model: random_forest

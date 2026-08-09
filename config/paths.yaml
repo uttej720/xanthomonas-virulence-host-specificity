@@ -1,0 +1,6 @@
+project_root: .
+raw_data: data/raw
+metadata: data/metadata
+results: results
+scripts: scripts
+logs: logs

@@ -1,0 +1,41 @@
+species_source,ID,Prediction,Protein description,description,bit_score,full_score,final_rank_score,full_evalue,virulence_literature,quantum_cluster
+citrus,WP_045714871.1,OTHER,calcium-binding protein [Xanthomonas citri],RTX,2508,210.7,2718.7,1.6e-63,,0
+citrus,WP_011052193.1,OTHER,hypothetical protein [Xanthomonas citri],,2652,,2652.0,,,1
+citrus,WP_052456244.1,OTHER,hypothetical protein [Xanthomonas citri],,2612,,2612.0,,,1
+citrus,WP_191589000.1,OTHER,hypothetical protein [Xanthomonas citri],,2469,,2469.0,,,0
+citrus,WP_011052147.1,OTHER,MULTISPECIES: XVIPCD domain-containing protein [Xanthomonas],"X-Tfes,",1744,38.6,1782.6,1.9e-09,,0
+citrus,WP_052690681.1,OTHER,putative Ig domain-containing protein [Xanthomonas citri],Putative,1596,167.2,1763.2,1.3e-49,,2
+citrus,WP_011050550.1,LIPO,MULTISPECIES: esterase/lipase family protein [Xanthomonas],,1345,,1345.0,,,0
+citrus,WP_442712828.1,LIPO,esterase/lipase family protein [Xanthomonas citri],Alpha/beta,1285,32.7,1317.7,1.7e-07,,0
+citrus,WP_011051229.1,OTHER,IS4-like element ISXac1 family transposase [Xanthomonas citri],Transposase,805,85.2,890.2,7.499999999999999e-24,,0
+citrus,WP_011050083.1,OTHER,MULTISPECIES: IS4-like element ISXac1 family transposase [Gammaproteobacteria],Transposase,805,85.0,890.0,8.799999999999999e-24,,0
+grape,WP_232350932.1,OTHER,zeta toxin family protein [Xanthomonas citri],Zeta,2552,189.2,2741.2,7.9999999999999985e-56,,0
+grape,WP_244441022.1,OTHER,peptidoglycan-binding protein [Xanthomonas citri],Putative,2449,52.1,2501.1,8.3e-14,,0
+grape,WP_080715310.1,OTHER,serine/threonine-protein kinase [Xanthomonas citri],Protein,746,157.3,903.3,7.1e-46,,0
+grape,WP_033485481.1,OTHER,helix-turn-helix domain-containing protein [Xanthomonas citri],IrrE,796,76.9,872.9,1.7e-21,,1
+grape,WP_005924051.1,OTHER,serine/threonine-protein kinase [Xanthomonas citri],Protein,723,147.2,870.2,8.8e-43,,0
+grape,WP_033485020.1,OTHER,type IV secretion system protein [Xanthomonas citri],TrbL/VirB6,721,128.8,849.8,3.6e-37,possible_virulence,3
+grape,WP_033485945.1,OTHER,MULTISPECIES: type IV secretion system protein [Xanthomonas],TrbL/VirB6,722,126.0,848.0,2.7e-36,possible_virulence,3
+grape,WP_050495026.1,OTHER,MULTISPECIES: helix-turn-helix domain-containing protein [Xanthomonas],IrrE,754,67.8,821.8,1.1e-18,,1
+grape,WP_080715265.1,OTHER,serine/threonine-protein kinase [Xanthomonas citri],Protein,620,124.6,744.6,6.5e-36,,3
+grape,WP_164677996.1,SP,MULTISPECIES: P-type DNA transfer protein VirB5 [Xanthomonas],Type,486,226.1,712.1,7.7e-67,,0
+pomegranate,WP_233700232.1,OTHER,LysM domain protein [Xanthomonas citri],RHS,6556,579.0,7135.0,3.8e-179,,1
+pomegranate,WP_306291509.1,OTHER,XopAG/AvrGf1 family type III secretion system effector [Xanthomonas citri],,1109,,1109.0,,possible_virulence,1
+pomegranate,WP_005932979.1,OTHER,XopAG/AvrGf1 family type III secretion system effector [Xanthomonas citri],,1058,,1058.0,,possible_virulence,1
+pomegranate,WP_192486489.1,OTHER,IS5 family transposase [Xanthomonas citri],Transposase,931,69.4,1000.4,4.4e-19,,1
+pomegranate,WP_192486500.1,OTHER,IS5 family transposase [Xanthomonas citri],Transposase,931,69.4,1000.4,4.4e-19,,1
+pomegranate,WP_160964032.1,OTHER,MULTISPECIES: IS5 family transposase [Lysobacteraceae],Transposase,930,69.4,999.4,4.4e-19,,1
+pomegranate,WP_233700267.1,OTHER,hypothetical protein [Xanthomonas citri],,885,,885.0,,,1
+pomegranate,WP_176558553.1,OTHER,MULTISPECIES: IS3 family transposase [Xanthomonas],Integrase,771,88.0,859.0,3.9e-25,,0
+pomegranate,WP_087947207.1,OTHER,IS3-like element ISXca2 family transposase [Xanthomonas citri],Integrase,764,93.6,857.6,7.1e-27,,0
+pomegranate,WP_425525089.1,OTHER,IS3 family transposase [Xanthomonas citri],Integrase,768,88.1,856.1,3.6999999999999996e-25,,0
+xoo,WP_242505180.1,SP,RHS repeat-associated core domain-containing protein [Xanthomonas oryzae],RHS,3564,184.0,3748.0,3.4e-55,,0
+xoo,WP_012444473.1,OTHER,DUF6531 domain-containing protein [Xanthomonas oryzae],RHS,3232,236.7,3468.7,1e-71,,0
+xoo,WP_129215632.1,OTHER,RHS repeat-associated core domain-containing protein [Xanthomonas oryzae],RHS,2918,243.8,3161.8,5.800000000000001e-74,,0
+xoo,WP_129215608.1,OTHER,IPT/TIG domain-containing protein [Xanthomonas oryzae],IPT/TIG,2791,35.9,2826.9,8.7e-09,,1
+xoo,WP_229002594.1,OTHER,RHS repeat domain-containing protein [Xanthomonas oryzae],RHS,2342,198.5,2540.5,1e-59,,1
+xoo,WP_242505189.1,OTHER,type VI secretion system Vgr family protein [Xanthomonas oryzae],Phage,1974,225.4,2199.4,1.3e-66,possible_virulence,1
+xoo,WP_206737953.1,OTHER,type VI secretion system Vgr family protein [Xanthomonas oryzae],Phage,1865,224.8,2089.8,2.0000000000000002e-66,possible_virulence,1
+xoo,WP_129215671.1,OTHER,T6SS effector BTH_I2691 family protein [Xanthomonas oryzae],VasX,1954,134.0,2088.0,7e-39,possible_virulence,2
+xoo,WP_129215596.1,OTHER,T6SS effector BTH_I2691 family protein [Xanthomonas oryzae],VasX,1943,142.8,2085.8,1.3999999999999998e-41,possible_virulence,2
+xoo,WP_129215587.1,OTHER,T6SS effector BTH_I2691 family protein [Xanthomonas oryzae],VasX,1943,142.6,2085.6,1.5e-41,possible_virulence,2

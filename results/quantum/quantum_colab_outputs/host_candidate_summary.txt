@@ -1,0 +1,4 @@
+citrus: WP_045714871.1 is the top candidate in cluster 0 with prediction NA. Reason: rank=2718.7; cluster=0.
+grape: WP_232350932.1 is the top candidate in cluster 0 with prediction NA. Reason: rank=2741.2; cluster=0.
+pomegranate: WP_233700232.1 is the top candidate in cluster 1 with prediction NA. Reason: rank=7135.0; cluster=1.
+xoo: WP_242505180.1 is the top candidate in cluster 0 with prediction NA. Reason: rank=3748.0; cluster=0.
